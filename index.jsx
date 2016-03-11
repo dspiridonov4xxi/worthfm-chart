@@ -10,7 +10,6 @@ import data from './data.json';
 
 import { map, forEach, values, keys, toArray, last } from 'lodash';
 
-import './node_modules/c3/c3.css';
 import './style.css';
 
 c3.chart.internal.fn.getAreaBaseValue = function () {

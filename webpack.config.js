@@ -65,6 +65,10 @@ module.exports = {
         hot: true,
         inline: true
     },
+    externals: {
+      d3: 'd3',
+      c3: 'c3'
+    },
     plugins: [
       new webpack.NoErrorsPlugin()
     ]
